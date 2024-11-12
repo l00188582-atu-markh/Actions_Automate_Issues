@@ -17,7 +17,7 @@ jobs:
         run: |
           gh issue close 1 --comment "Auto-closing issue" 
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUBTOKEN }}
 
 
           
