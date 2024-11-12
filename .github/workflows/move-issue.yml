@@ -13,6 +13,6 @@ jobs:
         with:
           project: Actions-Issues_Automation
           column: In Progress
-          repo-token: ${{ github.token }}
+          repo-token: ${{ secrets.GITHUBTOKEN }}
         
   
